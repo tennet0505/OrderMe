@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0628631C24527BB200C512D4 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0628631B24527BB200C512D4 /* WebViewController.swift */; };
 		065EBA2524526ED700C43EBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065EBA2424526ED700C43EBD /* AppDelegate.swift */; };
 		065EBA2724526ED700C43EBD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065EBA2624526ED700C43EBD /* SceneDelegate.swift */; };
-		065EBA2924526ED700C43EBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065EBA2824526ED700C43EBD /* ViewController.swift */; };
 		065EBA2C24526ED700C43EBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065EBA2A24526ED700C43EBD /* Main.storyboard */; };
 		065EBA2E24526ED800C43EBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 065EBA2D24526ED800C43EBD /* Assets.xcassets */; };
 		065EBA3124526ED800C43EBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065EBA2F24526ED800C43EBD /* LaunchScreen.storyboard */; };
+		065EBA3E245272CD00C43EBD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065EBA3D245272CD00C43EBD /* MainViewController.swift */; };
+		065EBA422452780200C43EBD /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065EBA412452780200C43EBD /* MainTableViewCell.swift */; };
+		065EBA45245279F900C43EBD /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065EBA44245279F900C43EBD /* ItemModel.swift */; };
+		C2FD730B0881A0F425865A80 /* Pods_OrderMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACDBA2C4CA990AE7C830FF6 /* Pods_OrderMe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0628631B24527BB200C512D4 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		065EBA2124526ED700C43EBD /* OrderMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		065EBA2424526ED700C43EBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		065EBA2624526ED700C43EBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		065EBA2824526ED700C43EBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		065EBA2B24526ED700C43EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		065EBA2D24526ED800C43EBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		065EBA3024526ED800C43EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		065EBA3224526ED800C43EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065EBA3D245272CD00C43EBD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		065EBA412452780200C43EBD /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		065EBA44245279F900C43EBD /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		46232ADE51AFA7BEAADDB4CA /* Pods-OrderMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrderMe.release.xcconfig"; path = "Target Support Files/Pods-OrderMe/Pods-OrderMe.release.xcconfig"; sourceTree = "<group>"; };
+		8A9C3DE3620E9FC12BF18A06 /* Pods-OrderMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrderMe.debug.xcconfig"; path = "Target Support Files/Pods-OrderMe/Pods-OrderMe.debug.xcconfig"; sourceTree = "<group>"; };
+		CACDBA2C4CA990AE7C830FF6 /* Pods_OrderMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrderMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2FD730B0881A0F425865A80 /* Pods_OrderMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				065EBA2324526ED700C43EBD /* OrderMe */,
 				065EBA2224526ED700C43EBD /* Products */,
+				9F9DD3D4B32768882A7F319E /* Pods */,
+				80D9F28E38283A7EDD56D571 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +69,67 @@
 		065EBA2324526ED700C43EBD /* OrderMe */ = {
 			isa = PBXGroup;
 			children = (
+				065EBA3F245272D700C43EBD /* ViewControllers */,
+				065EBA40245277E400C43EBD /* Cells */,
+				065EBA43245279D900C43EBD /* Models */,
+				065EBA3C2452729500C43EBD /* Storyboard */,
 				065EBA2424526ED700C43EBD /* AppDelegate.swift */,
 				065EBA2624526ED700C43EBD /* SceneDelegate.swift */,
-				065EBA2824526ED700C43EBD /* ViewController.swift */,
-				065EBA2A24526ED700C43EBD /* Main.storyboard */,
 				065EBA2D24526ED800C43EBD /* Assets.xcassets */,
-				065EBA2F24526ED800C43EBD /* LaunchScreen.storyboard */,
 				065EBA3224526ED800C43EBD /* Info.plist */,
 			);
 			path = OrderMe;
+			sourceTree = "<group>";
+		};
+		065EBA3C2452729500C43EBD /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				065EBA2A24526ED700C43EBD /* Main.storyboard */,
+				065EBA2F24526ED800C43EBD /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		065EBA3F245272D700C43EBD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				065EBA3D245272CD00C43EBD /* MainViewController.swift */,
+				0628631B24527BB200C512D4 /* WebViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		065EBA40245277E400C43EBD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				065EBA412452780200C43EBD /* MainTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		065EBA43245279D900C43EBD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				065EBA44245279F900C43EBD /* ItemModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		80D9F28E38283A7EDD56D571 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CACDBA2C4CA990AE7C830FF6 /* Pods_OrderMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F9DD3D4B32768882A7F319E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A9C3DE3620E9FC12BF18A06 /* Pods-OrderMe.debug.xcconfig */,
+				46232ADE51AFA7BEAADDB4CA /* Pods-OrderMe.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +139,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 065EBA3524526ED800C43EBD /* Build configuration list for PBXNativeTarget "OrderMe" */;
 			buildPhases = (
+				0BD35E3E38B5A9A3F7CE45D8 /* [CP] Check Pods Manifest.lock */,
 				065EBA1D24526ED700C43EBD /* Sources */,
 				065EBA1E24526ED700C43EBD /* Frameworks */,
 				065EBA1F24526ED700C43EBD /* Resources */,
@@ -133,13 +199,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BD35E3E38B5A9A3F7CE45D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OrderMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		065EBA1D24526ED700C43EBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				065EBA2924526ED700C43EBD /* ViewController.swift in Sources */,
+				065EBA45245279F900C43EBD /* ItemModel.swift in Sources */,
+				0628631C24527BB200C512D4 /* WebViewController.swift in Sources */,
+				065EBA3E245272CD00C43EBD /* MainViewController.swift in Sources */,
 				065EBA2524526ED700C43EBD /* AppDelegate.swift in Sources */,
+				065EBA422452780200C43EBD /* MainTableViewCell.swift in Sources */,
 				065EBA2724526ED700C43EBD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +376,7 @@
 		};
 		065EBA3624526ED800C43EBD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A9C3DE3620E9FC12BF18A06 /* Pods-OrderMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +395,7 @@
 		};
 		065EBA3724526ED800C43EBD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46232ADE51AFA7BEAADDB4CA /* Pods-OrderMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
